@@ -22,12 +22,17 @@ function MyApp2() {
 
   // component 사용 시 종료 태그 꼭 작성
   // (empty tag는 시작 태그에 '/' 꼭 작성)
+
+  const a = <MyComponent />;
+
   return (
     <div>
       Lorenzo Il Magnifico
       <MyComponent />
       <MyComponent />
       <MyComponent />
+      <hr />
+      {a}
     </div>
   );
 }
