@@ -9,13 +9,13 @@ function MyApp40(props) {
   function handleKeyUp(e) {
     setText(e.target.value);
   }
-  function handleButtonClick() {
-    // state 가 객체면
-    // 새객체(참조값)를 만들어서 상태를 변경해야 함
-    list.push("vanilla latte");
-    console.log(list);
-    setList(list);
-  }
+  // function handleButtonClick() {
+  //   // state 가 객체면
+  //   // 새객체(참조값)를 만들어서 상태를 변경해야 함
+  //   list.push("vanilla latte");
+  //   console.log(list);
+  //   setList(list);
+  // }
   function handleButtonClick2() {
     const nextItems = [...items, "ramen"];
     setItems(nextItems);
